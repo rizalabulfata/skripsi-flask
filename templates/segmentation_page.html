@@ -1,0 +1,23 @@
+<div class="jumbotron">
+    <h1 class="display-3">Uji Segmentasi</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <table class="table table-bordered">
+        <tr>
+            <th>Mask</th>
+            <th>Hasil</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td><img width="50%" height="50%" src="{{url_for('static', filename='uploads/unet/citra.png')}}" alt=""></td>
+        </tr>
+        <tr>
+            <td><img width="50%" height="50%" src="{{url_for('static', filename='uploads/unet/mask_predMask.png')}}" alt=""></td>
+            <td><img width="50%" height="50%" src="{{url_for('static', filename='uploads/unet/img_cut_a.png')}}" alt=""></td>
+        </tr>
+        <tr>
+            <td><img width="50%" height="50%" src="{{url_for('static', filename='uploads/unet/mask_predMaskInverted.png')}}" alt=""></td>
+            <td><img width="50%" height="50%" src="{{url_for('static', filename='uploads/unet/img_cut_b.png')}}" alt=""></td>
+        </tr>
+    </table>
+  </div>

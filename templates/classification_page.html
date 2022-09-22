@@ -1,0 +1,15 @@
+<div class="jumbotron">
+    <h1 class="display-3">Uji Klasifikasi</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <table class="table table-bordered">
+      <tr>
+        <th>Citra</th>
+        <th>Kelas Prediksi</th>
+    </tr>
+    <tr>
+        <td><img width="50%" height="50%" src="{{url_for('static', filename='uploads/vgg/citra.png')}}" alt=""></td>
+        <td>{{resultPred}}</td>
+    </tr>
+    </table>
+  </div>
